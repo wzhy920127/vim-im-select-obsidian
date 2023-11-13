@@ -187,6 +187,7 @@ export default class VimImPlugin extends Plugin {
 					break;
 				}
 				this.switchToNormal();
+				this.switchToInsert();
 				break;
 		}
 	}
